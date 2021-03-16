@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-
-console.log('Welcome to the Brain Games!')
-
+// eslint-disable-next-line no-unused-vars
+import witam from '../src/cli.js'
+witam();
