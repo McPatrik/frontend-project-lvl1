@@ -28,7 +28,8 @@ const game = () => {
       current += 1;
       console.log('Correct!');
     } else {
-      console.log('sorry');
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.
+      Let's try again, ${name}`);
       break;
     }
   }
