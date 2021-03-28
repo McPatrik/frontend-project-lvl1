@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-import {randomInteger} from '../src/index.js';
+import { randomInteger } from '../src/index.js';
 
 export const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
