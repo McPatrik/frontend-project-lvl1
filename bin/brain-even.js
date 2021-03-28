@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import game from './logicGames.js';
+import { logicGame } from '../src/index.js';
+import { task, answerS } from '../games/brain-even.js';
 
-game();
+logicGame(task, answerS);
