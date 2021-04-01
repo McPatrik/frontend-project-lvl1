@@ -4,3 +4,5 @@
 [![Linter](https://github.com/McPatrik/frontend-project-lvl1/actions/workflows/superlinter.yml/badge.svg)](https://github.com/McPatrik/frontend-project-lvl1/actions/workflows/superlinter.yml)
 https://asciinema.org/a/402341
 https://asciinema.org/a/403502
+https://asciinema.org/a/404444
+
