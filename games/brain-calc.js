@@ -19,6 +19,7 @@ export const answerS = () => {
   const numbers = randomn();
   const sign = numbers[2];
   const st = `${numbers[0]} ${sign} ${numbers[1]}`;
+  // eslint-disable-next-line no-eval
   const trueAnswer = eval(st);
   answers.push(trueAnswer);
   console.log(`Question: ${numbers[0]}${sign}${numbers[1]}`);

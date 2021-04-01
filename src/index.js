@@ -1,4 +1,3 @@
-import { RuleTester } from 'eslint';
 import readlineSync from 'readline-sync';
 
 export const randomInteger = (min = 1, max = 20) => {
