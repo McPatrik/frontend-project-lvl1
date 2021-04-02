@@ -30,6 +30,6 @@ export const logicGame = (task, answers) => {
     }
   }
   if (current === 3) {
-    console.log(`Congratulations, ${name}`);
+    console.log(`Congratulations, ${name}!`);
   }
 };
