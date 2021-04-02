@@ -9,7 +9,7 @@ const isPrime = (number) => {
       current += 1;
     }
   }
-  if (current > 0) {
+  if (current > 0 || number === 1) {
     answer = 'no';
   } else {
     answer = 'yes';
