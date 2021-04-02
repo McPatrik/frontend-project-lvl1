@@ -4,7 +4,7 @@ import { randomInteger } from '../src/index.js';
 const isPrime = (number) => {
   let answer;
   let current = 0;
-  for (let i = 2; i < Math.floor(number/2); i += 1) {
+  for (let i = 2; i < Math.floor(number / 2); i += 1) {
     if (number % i === 0) {
       current += 1;
     }
