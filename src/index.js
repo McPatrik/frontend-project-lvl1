@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const randomInteger = (min = 1, max = 20) => {
+export const randomInteger = (min = 1, max = 100) => {
 // случайное число от min до (max+1)
   const rand = min + Math.random() * (max + 1 - min);
   return Math.floor(rand);
