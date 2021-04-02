@@ -25,7 +25,7 @@ export const logicGame = (task, answers) => {
       console.log('Correct!');
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.
-      Let's try again, ${name}`);
+      Let's try again, ${name}!`);
       break;
     }
   }
