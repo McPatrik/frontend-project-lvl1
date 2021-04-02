@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "brain-even": "^0.1.12",
-    "readline-sync": "git+https://github.com/anseki/readline-sync.git"
+    "readline-sync": "^1.4.10"
   }
 }
