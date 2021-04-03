@@ -22,7 +22,7 @@ export const answerS = () => {
   // eslint-disable-next-line no-eval
   const trueAnswer = eval(st);
   answers.push(trueAnswer);
-  console.log(`Question: ${numbers[0]}${sign}${numbers[1]}`);
+  console.log(`Question: ${numbers[0]} ${sign} ${numbers[1]}`);
   const answerUser = Number(readlineSync.question('Your answer: '));
   answers.push(answerUser);
   console.log(answerUser);
